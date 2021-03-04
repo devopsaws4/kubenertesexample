@@ -6,8 +6,8 @@ metadata:
     name: tomcat
 spec:
   externalIPs:
-    - 192.168.198.132
+    - 192.168.87.141
   ports:
     - port: 8080
   selector:
-    name: tomcat
+    app: tomcat
