@@ -10,4 +10,4 @@ spec:
   ports:
     - port: 8080
   selector:
-    name: tomcat
+    app: tomcat
