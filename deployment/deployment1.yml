@@ -7,7 +7,7 @@ spec:
   template:
     metadata:
       labels:
-        app: webserver
+        app: webserver1
     spec:
       containers:
       - name: tomcat
@@ -18,4 +18,4 @@ spec:
         - name: SIMPLE_SERVICE_VERSION
           value: "0.9"
         selector:
-          app: webserver
+          app: webserver1
