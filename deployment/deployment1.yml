@@ -17,3 +17,5 @@ spec:
         env:
         - name: SIMPLE_SERVICE_VERSION
           value: "0.9"
+        selector:
+          app: webserver
